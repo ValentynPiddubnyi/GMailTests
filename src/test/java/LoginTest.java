@@ -10,6 +10,7 @@ public class LoginTest {
     public void login(){
         Browser.initDriver();
         new LoginPage().goToLoginPage();
+
         Browser.close();
     }
 }
