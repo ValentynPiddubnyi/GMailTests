@@ -12,4 +12,11 @@ public class LoginTest {
         new LoginPage().goToLoginPage();
         Browser.close();
     }
+
+    @Test
+    public void login2(){
+        Browser.initDriver();
+        new LoginPage().goToLoginPage();
+        Browser.close();
+    }
 }
