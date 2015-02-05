@@ -17,4 +17,8 @@ public class Browser {
     public static WebDriver getDriver(){
         return driver;
     }
+
+    public static void close() {
+        driver.close();
+    }
 }

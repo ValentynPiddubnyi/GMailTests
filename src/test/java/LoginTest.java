@@ -5,10 +5,11 @@ import pages.LoginPage;
 /**
  * Created by fil on 2/5/15.
  */
-public class LoginTests {
+public class LoginTest {
     @Test
     public void login(){
         Browser.initDriver();
         new LoginPage().goToLoginPage();
+        Browser.close();
     }
 }
